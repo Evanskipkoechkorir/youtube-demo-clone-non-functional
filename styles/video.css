@@ -1,0 +1,64 @@
+
+       .thumbnail {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+       }
+       
+       .video-title {
+        width: 200px;
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
+       }
+    
+       
+       .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+       }
+       .profile-picture {
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        border-radius: 50%;
+ 
+       }
+       
+       .thumbnail-row {
+        margin-bottom: 12px;
+        position: relative;
+       }
+       .video-author {
+        font-size: 12px;
+        color: rgb(97, 97, 97);
+        margin-bottom: 4px;
+       }
+       .video-stats {
+        font-size: 12px;
+        color: rgb(97, 97, 97);
+       }
+       .video-grid {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         column-gap: 15px;
+         row-gap: 40px;
+         
+       }
+       .video-time {
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        right: 8px;
+        font-family: Roboto, Aaerial;
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 2px;
+       }
